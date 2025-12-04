@@ -12,11 +12,11 @@ export function Hero() {
 
   const slides = [
     {
-      src: "/src/components/asset/images/454871435_122192223284024113_7687136193848615651_n.jpg",
+      src: "/src/components/asset/images/hero 1.jpg",
       alt: "Zallan Driving School",
     },
     {
-      src: "/src/components/asset/images/467993614_122211501878024113_5187836329635680787_n.jpg",
+      src: "/src/components/asset/images/hero 2.jpg",
       alt: "Zallan Driving School",
       // src: "https://images.unsplash.com/photo-1694344500115-d2dcbc1ea38f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkcml2aW5nJTIwc2Nob29sJTIwY2FyfGVufDF8fHx8MTc2NDc1NDQ0OHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       // alt: "Driving School Car",
