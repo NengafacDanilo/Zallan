@@ -18,7 +18,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "./ui/select";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 
 export function Booking() {
   const [selectedDate, setSelectedDate] = useState<Date | null>(null);
