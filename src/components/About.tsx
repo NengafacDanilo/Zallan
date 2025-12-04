@@ -133,7 +133,7 @@ export function About() {
               className="relative rounded-2xl overflow-hidden shadow-2xl"
             >
               <ImageWithFallback
-                src="/src/components/asset/images/491964481_122240134874024113_2366904515285584802_n.jpg"
+                src="/src/components/asset/images/about.jpg"
                 alt="Zallan Driving School"
                 className="w-full h-auto object-cover"
               />
