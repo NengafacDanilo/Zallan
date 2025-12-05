@@ -3,6 +3,8 @@ import { ArrowRight, CheckCircle2, Award, Users, Clock, ChevronLeft, ChevronRigh
 import { Button } from "./ui/button";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { useEffect, useState } from "react";
+import hero1 from "./asset/images/hero 1.jpg";
+import hero2 from "./asset/images/hero 2.jpg";
 
 interface HeroProps {
 }
@@ -12,14 +14,12 @@ export function Hero() {
 
   const slides = [
     {
-      src: "/src/components/asset/images/hero 1.jpg",
+      src: hero1,
       alt: "Zallan Driving School",
     },
     {
-      src: "/src/components/asset/images/hero 2.jpg",
+      src: hero2,
       alt: "Zallan Driving School",
-      // src: "https://images.unsplash.com/photo-1694344500115-d2dcbc1ea38f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkcml2aW5nJTIwc2Nob29sJTIwY2FyfGVufDF8fHx8MTc2NDc1NDQ0OHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      // alt: "Driving School Car",
     },
   ];
 

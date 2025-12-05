@@ -1,12 +1,13 @@
 import { motion } from "motion/react";
 import { Star, Award, Calendar, MapPin, MessageCircle } from "lucide-react";
 import { Button } from "./ui/button";
+import zallanImage from "./asset/images/zallan.jpg";
 
 export function Instructors() {
   const instructors = [
     {
       name: "Mr Zallan",
-      image: "/src/components/asset/images/zallan.jpg",
+      image: zallanImage,
       experience: "12 years",
       specialty: "Categories B, C, D",
       rating: 4.9,

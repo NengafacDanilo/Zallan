@@ -10,6 +10,7 @@ import {
   Star,
 } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
+import aboutImage from "./asset/images/about.jpg";
 
 export function About() {
   const values = [
@@ -133,7 +134,7 @@ export function About() {
               className="relative rounded-2xl overflow-hidden shadow-2xl"
             >
               <ImageWithFallback
-                src="/src/components/asset/images/about.jpg"
+                src={aboutImage}
                 alt="Zallan Driving School"
                 className="w-full h-auto object-cover"
               />
